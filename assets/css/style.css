@@ -1,3 +1,6 @@
+/* Site Specific */
+@import "site.css";
+
 /**
  * Tailwind base - put variables under: tailwind.config.js
  * This injects Tailwind's base styles and any base styles registered by

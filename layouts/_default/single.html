@@ -1,3 +1,14 @@
 {{- define "main" }}
-{{- .Content -}}
+<article class="mx-4 sm:mx-12">
+  <section class="">
+    <h1 class="text-4xl mt-4">{{ .Title }}</h1>
+    <div class="text-sm mt-2">
+      <span class="mr-1">Updated:{{ .Lastmod.Format "2006.01.02" }}</span>
+      <span class="">Created:{{ .Date.Format "2006.01.02" }}</span>
+    </div>
+    <div class="post leading-loose mt-2">
+      {{- .Content -}}
+    </div>
+  </section>
+</article>
 {{ end -}}
