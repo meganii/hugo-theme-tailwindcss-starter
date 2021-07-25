@@ -1,0 +1,7 @@
+/node_modules
+/resources
+/exampleSite/public
+/exampleSite/node_modules
+/exampleSite/resources
+/exampleSite/hugo_stats.json
+**/themes/

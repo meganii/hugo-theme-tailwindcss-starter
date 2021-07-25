@@ -1,0 +1,27 @@
+DefaultContentLanguage = "en"
+baseURL = "https://example.com"
+enableEmoji = true
+enableRobotsTXT = true
+languageCode = "en"
+summarylength = 10
+theme = "hugo-theme-tailwindcss-starter"
+title = "Hugo TailwindCSS"
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
+
+[build]
+writeStats = true

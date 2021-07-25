@@ -1,0 +1,15 @@
+{{- define "main" }}
+{{- range .Paginator.Pages }}
+<div class="p-4 flex flex-col justify-between leading-normal">
+  <div class="mb-8 px-1">
+    <p class="text-grey-dark">{{ .Date.Format "2006.01.02" }}</p>
+    <div class="text-black font-bold text-xl mb-2">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </div>
+    <p class="text-gray-700 text-base">
+      {{ .Summary | plainify | truncate 200 }}
+    </p>
+  </div>
+</div>
+{{ end -}}
+{{ end -}}

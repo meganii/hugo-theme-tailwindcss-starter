@@ -1,0 +1,32 @@
+{
+  "name": "hugo-theme-tailwindcss-starter",
+  "version": "0.0.1",
+  "description": "Starter for TailwindCSS with Hugo",
+  "main": "index.js",
+  "scripts": {
+    "server": "hugo server -s exampleSite --themesDir=../.. --disableFastRender",
+    "build": "hugo --gc -s exampleSite --themesDir=../..",
+    "prettier": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.3.2",
+    "prettier-plugin-go-template": "^0.0.11",
+    "tailwindcss": "^2.2.7"
+  },
+  "peerDependencies": {
+    "postcss": "^8.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meganii/hugo-theme-tailwindcss-starter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meganii/hugo-theme-tailwindcss-starter/issues"
+  },
+  "homepage": "https://github.com/meganii/hugo-theme-tailwindcss-starter#readme"
+}
